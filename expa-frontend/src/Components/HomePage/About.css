@@ -1,0 +1,84 @@
+/* About Section */
+#about_section {
+  /* padding: 100px 0; */
+  padding: 2rem;
+  background-color: #f9f9f9; /* Background color for the section */
+  
+}
+
+#about_section center p {
+  font-size: 50px;
+  padding: 100px;
+  color: #333; /* Text color for the heading */
+}
+
+.about-content {
+  display: flex; /* Flexbox for side-by-side layout */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 0 20px; /* Padding inside the content area */
+  border: 1px solid #ccc; /* Border around the content */
+  border-radius: 10px; /* Rounded corners for the content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the content */
+}
+
+.side-image {
+  flex: 1; /* Make the image container take equal space */
+  padding: 20px; /* Padding around the image */
+  text-align: center; /* Center image in container */
+  background-color: rgba(173, 216, 230, 0.9);
+
+  /* background-color: #e0f7fa; Background color for the image container */
+  border-right: 2px solid #00796b; /* Divider between image and text */
+}
+
+.side-image img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+}
+
+.side-text {
+  flex: 1; /* Make the text container take equal space */
+  padding: 20px; /* Padding around the text */
+  background-color: #fff; /* Background color for the text container */
+}
+
+.side-text h2 {
+  font-size: 30px; /* Font size for the heading */
+  margin-bottom: 20px; /* Margin below the heading */
+  color: #333; /* Text color for the heading */
+}
+
+.side-text p {
+  font-size: 18px; /* Font size for the paragraph */
+  line-height: 1.6; /* Line height for better readability */
+  color: #666; /* Text color for the paragraph */
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .side-image, .side-text {
+    padding: 10px; /* Reduce padding on smaller screens */
+    border-right: none; /* Remove border on small screens */
+    border-bottom: 2px solid #00796b; /* Divider between image and text on small screens */
+  }
+
+  #about_section center p {
+    font-size: 36px; /* Smaller font size for the heading */
+    padding: 50px 20px; /* Adjust padding for the heading */
+  }
+
+  .side-text h2 {
+    font-size: 24px; /* Smaller font size for the heading */
+  }
+
+  .side-text p {
+    font-size: 16px; /* Smaller font size for the paragraph */
+  }
+}
