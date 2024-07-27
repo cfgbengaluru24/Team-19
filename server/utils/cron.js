@@ -4,8 +4,8 @@ const trainerModel = require("../models/trainer"); // Adjust the path as necessa
 dotenv.config();
 
 // Twilio configuration
-const accountSid = process.env.TWILIO_ACCOUNT_SID; // Your Account SID from Twilio
-const authToken = process.env.TWILIO_AUTH_TOKEN; // Your Auth Token from Twilio
+const accountSid = ''; // Your Account SID from Twilio
+const authToken = ''; // Your Auth Token from Twilio
 
 const client = require("twilio")(accountSid, authToken);
 
@@ -34,8 +34,8 @@ const sendRemindersToTrainers = async () => {
     threeDaysFromNow.setDate(today.getDate() + 3);
 
     // Format the date to 'YYYY-MM-DD' to match database format
-    const formattedDate = threeDaysFromNow.toISOString().split("T")[0];
-
+    const formattedDate = threeDaysFromNow;
+    console.log(formattedDate);
     // Fetch trainers with sessions scheduled on the calculated date
     const trainersWithUpcomingSessions = await trainerModel.find({
       scheduleDate: formattedDate, // Adjust the field name to match your database schema
