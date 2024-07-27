@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-r, .flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex-c {
+    flex-direction: column;
+}
+
+.flex-r {
+    flex-direction: row;
+}
+
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 216, 230, 0.9);
+    z-index: 1;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255);
+    width: 100%;
+    max-width: 800px;
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.login-box h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.login-box p {
+    font-size: 24px;
+    color: #000000B2;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+.input-group {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.input-group label {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-group input {
+    background-color: #F6F6F6;
+    padding: 15px;
+    border: 2px solid #D8D8D8;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 22px;
+}
+
+button {
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1E94E9 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.message {
+    margin-top: 30px;
+    color: green;
+    font-size: 20px;
+}
