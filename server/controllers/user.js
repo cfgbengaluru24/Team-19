@@ -9,7 +9,7 @@ const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 
 const signup = async (req, res) => {
     // check if the user already exists
-    const { username, email, password, gender, phone, location } = req.body;
+    const { username, email, password, gender, phone} = req.body;
     try {
         const existingUser = await userModel.findOne({ email: email });
         if (existingUser) {
@@ -23,7 +23,6 @@ const signup = async (req, res) => {
             password: hashedPassword,
             gender,
             phone,
-            location,
         });
 
         // Save the user to the database
