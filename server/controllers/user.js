@@ -1,7 +1,6 @@
 const userModel = require("../models/user");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const crypto = require("crypto");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -9,7 +8,7 @@ const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 
 const signup = async (req, res) => {
   // check if the user already exists
-  const { username, email, password, gender, contactNumber } = req.body;
+  const { username, email, password, gender, contactNumber, role } = req.body;
   try {
     const existingUser = await userModel.findOne({ email: email });
     if (existingUser) {
