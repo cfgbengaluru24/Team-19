@@ -1,0 +1,547 @@
+[
+  {
+    "question": "A farmer had 15 sheep, and all but 8 died. How many are left?",
+    "options": ["0", "7", "8", "15"],
+    "topic": "Critical Thinking",
+    "correct_answer": "8"
+  },
+  {
+    "question": "If you rearrange the letters \"CIFAIPC\" you would have the name of a(n):",
+    "options": ["Animal", "City", "Ocean", "Instrument"],
+    "topic": "Critical Thinking",
+    "correct_answer": "City"
+  },
+  {
+    "question": "What number comes next in the series: 2, 3, 5, 9, 17, ___?",
+    "options": ["26", "28", "31", "33"],
+    "topic": "Critical Thinking",
+    "correct_answer": "33"
+  },
+  {
+    "question": "If all Bloops are Razzies and all Razzies are Lazzies, all Bloops are definitely Lazzies?",
+    "options": ["True", "False", "Uncertain", "Depends"],
+    "topic": "Critical Thinking",
+    "correct_answer": "True"
+  },
+  {
+    "question": "In a race, if you pass the person in 2nd place, what place are you in?",
+    "options": ["1st", "2nd", "3rd", "4th"],
+    "topic": "Critical Thinking",
+    "correct_answer": "2nd"
+  },
+  {
+    "question": "A bat and a ball cost ₹1100 in total. The bat costs ₹1000 more than the ball. How much does the ball cost?",
+    "options": ["₹10", "₹100", "₹200", "₹500"],
+    "topic": "Critical Thinking",
+    "correct_answer": "₹100"
+  },
+  {
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "options": ["5 minutes", "10 minutes", "50 minutes", "100 minutes"],
+    "topic": "Critical Thinking",
+    "correct_answer": "5 minutes"
+  },
+  {
+    "question": "Rahul looks at Meena and says, \"I am your brother's nephew.\" How is Rahul related to Meena?",
+    "options": ["Cousin", "Nephew", "Son", "Brother"],
+    "topic": "Critical Thinking",
+    "correct_answer": "Nephew"
+  },
+  {
+    "question": "If you are in a dark room with a candle, a wood stove, and a gas lamp. You only have one match, so what do you light first?",
+    "options": ["Candle", "Wood stove", "Gas lamp", "None"],
+    "topic": "Critical Thinking",
+    "correct_answer": "Match"
+  },
+  {
+    "question": "If a leaf falls to the ground in a forest and no one hears it, does it make a sound?",
+    "options": ["Yes", "No", "Depends", "Uncertain"],
+    "topic": "Critical Thinking",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+    "options": ["1", "2", "5", "10"],
+    "topic": "Critical Thinking",
+    "correct_answer": "1"
+  },
+  {
+    "question": "Sonal is younger than Pranav but older than Kajal. If Pranav is younger than Rajesh, who is the youngest?",
+    "options": ["Sonal", "Pranav", "Kajal", "Rajesh"],
+    "topic": "Critical Thinking",
+    "correct_answer": "Kajal"
+  },
+  {
+    "question": "Which one of the following is least like the others?",
+    "options": ["Apple", "Banana", "Carrot", "Date"],
+    "topic": "Critical Thinking",
+    "correct_answer": "Carrot"
+  },
+  {
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "options": ["2", "4", "6", "None"],
+    "topic": "Critical Thinking",
+    "correct_answer": "4"
+  },
+  {
+    "question": "If it took eight men ten hours to build a wall, how long would it take four men to build it?",
+    "options": ["10 hours", "20 hours", "40 hours", "80 hours"],
+    "topic": "Critical Thinking",
+    "correct_answer": "20 hours"
+  },
+  {
+    "question": "What is the most important aspect of delivering a presentation?",
+    "options": ["Content", "Visuals", "Delivery", "Audience engagement"],
+    "topic": "Communication",
+    "correct_answer": "Audience engagement"
+  },
+  {
+    "question": "When writing an email, what should you do first?",
+    "options": [
+      "Write the subject line",
+      "Compose the body",
+      "Add recipients",
+      "Proofread"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Write the subject line"
+  },
+  {
+    "question": "How do you ensure your message is understood in a conversation?",
+    "options": [
+      "Use simple language",
+      "Speak louder",
+      "Repeat the message",
+      "Ask for feedback"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Ask for feedback"
+  },
+  {
+    "question": "What is an effective way to resolve a misunderstanding?",
+    "options": [
+      "Ignore it",
+      "Argue about it",
+      "Clarify the misunderstanding",
+      "Shift the topic"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Clarify the misunderstanding"
+  },
+  {
+    "question": "In a team meeting, if someone proposes an idea you disagree with, what should you do?",
+    "options": [
+      "Ignore it",
+      "Dismiss it immediately",
+      "Provide constructive feedback",
+      "Change the subject"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Provide constructive feedback"
+  },
+  {
+    "question": "What is the key to effective communication in a multicultural environment?",
+    "options": [
+      "Speak loudly",
+      "Use complex language",
+      "Be aware of cultural differences",
+      "Stick to one language"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Be aware of cultural differences"
+  },
+  {
+    "question": "When giving feedback, what is most important?",
+    "options": ["Be direct", "Be gentle", "Be honest", "Be vague"],
+    "topic": "Communication",
+    "correct_answer": "Be honest"
+  },
+  {
+    "question": "If you misunderstand what someone said, what should you do?",
+    "options": [
+      "Pretend you understand",
+      "Ask for clarification",
+      "Change the topic",
+      "Ignore the misunderstanding"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Ask for clarification"
+  },
+  {
+    "question": "How can you improve the clarity of your spoken messages?",
+    "options": [
+      "Speak faster",
+      "Use more jargon",
+      "Be clear and concise",
+      "Use complex sentences"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Be clear and concise"
+  },
+  {
+    "question": "What is a key element in active listening?",
+    "options": [
+      "Interrupting",
+      "Listening passively",
+      "Providing feedback",
+      "Focusing on your response"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Providing feedback"
+  },
+  {
+    "question": "When participating in a debate, what is most important?",
+    "options": [
+      "Winning the argument",
+      "Listening to others",
+      "Sticking to your point",
+      "Using strong language"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Listening to others"
+  },
+  {
+    "question": "In a presentation, how should complex information be conveyed?",
+    "options": [
+      "With a lot of text",
+      "With simple visuals",
+      "With detailed charts",
+      "With lengthy explanations"
+    ],
+    "topic": "Communication",
+    "correct_answer": "With simple visuals"
+  },
+  {
+    "question": "Why is body language important in communication?",
+    "options": [
+      "It shows confidence",
+      "It can be ignored",
+      "It conveys emotions",
+      "It makes communication longer"
+    ],
+    "topic": "Communication",
+    "correct_answer": "It conveys emotions"
+  },
+  {
+    "question": "What should be avoided in professional emails?",
+    "options": [
+      "Clear subject lines",
+      "Formal language",
+      "Slang and informal language",
+      "Proper grammar"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Slang and informal language"
+  },
+  {
+    "question": "How do you handle a situation where you have to deliver bad news?",
+    "options": [
+      "Be direct and empathetic",
+      "Avoid the topic",
+      "Use vague language",
+      "Delay the news"
+    ],
+    "topic": "Communication",
+    "correct_answer": "Be direct and empathetic"
+  },
+  {
+    "question": "Who is more likely to succeed in a science career?",
+    "options": [
+      "Men",
+      "Women",
+      "Anyone with interest and dedication",
+      "People with prior experience"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Anyone with interest and dedication"
+  },
+  {
+    "question": "Can men cry when feeling sad or overwhelmed?",
+    "options": ["No", "Yes", "Only in private", "Only if they are alone"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Who should be responsible for household chores?",
+    "options": ["Men", "Women", "Both equally", "Depends on the situation"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Both equally"
+  },
+  {
+    "question": "Is it acceptable for women to propose marriage?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in some cultures",
+      "Only in modern societies"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "What is an appropriate career for women?",
+    "options": [
+      "Any career they choose",
+      "Only traditional roles",
+      "Only caregiving roles",
+      "Only office jobs"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Any career they choose"
+  },
+  {
+    "question": "Should men be involved in childcare?",
+    "options": ["No", "Yes", "Only if they want to", "Only when necessary"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Can a woman be the primary breadwinner of the family?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in certain cultures",
+      "Only in dual-income households"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Is it okay for men to wear traditionally feminine clothing?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in specific situations",
+      "Only if it's trendy"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Should girls be encouraged to play sports?",
+    "options": ["No", "Yes", "Only certain sports", "Only if they want to"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Who should make financial decisions in a family?",
+    "options": ["Men", "Women", "Both equally", "Depends on who earns more"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Both equally"
+  },
+  {
+    "question": "Is it important to have women in leadership positions?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in certain sectors",
+      "Only in larger organizations"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Should boys and girls receive the same education?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in primary education",
+      "Only in certain subjects"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Can men be victims of domestic violence?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in extreme cases",
+      "Only in certain cultures"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Is it okay for a woman to be single by choice?",
+    "options": [
+      "No",
+      "Yes",
+      "Only if she has a good reason",
+      "Only if she is financially independent"
+    ],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "Should parental leave be available equally to both mothers and fathers?",
+    "options": ["No", "Yes", "Only to mothers", "Only to fathers"],
+    "topic": "Gender Sensitivity",
+    "correct_answer": "Yes"
+  },
+  {
+    "question": "You find a wallet on the street with money and an ID. What do you do?",
+    "options": [
+      "Keep it",
+      "Turn it into the police",
+      "Try to find the owner yourself",
+      "Ignore it"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Turn it into the police"
+  },
+  {
+    "question": "If you see someone being bullied, how do you respond?",
+    "options": [
+      "Join in",
+      "Ignore it",
+      "Help the victim",
+      "Report it to an authority"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Help the victim"
+  },
+  {
+    "question": "Is it okay to cheat in an exam if you're sure you won't get caught?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if everyone else is doing it",
+      "Only if you're struggling"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "No"
+  },
+  {
+    "question": "You accidentally break a friend's item. Do you:",
+    "options": [
+      "Replace it",
+      "Ignore it",
+      "Apologize but do nothing",
+      "Blame someone else"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Replace it"
+  },
+  {
+    "question": "Is it acceptable to lie to avoid hurting someone's feelings?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in certain situations",
+      "Only if the lie is harmless"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "No"
+  },
+  {
+    "question": "You see a lost child in a public place. What's your first action?",
+    "options": [
+      "Ignore them",
+      "Try to find their parents",
+      "Call the police",
+      "Take them to a nearby store"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Try to find their parents"
+  },
+  {
+    "question": "A friend asks you to keep a secret that you feel is harmful. Do you:",
+    "options": [
+      "Keep it",
+      "Tell someone else",
+      "Report it to an authority",
+      "Confront your friend"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Report it to an authority"
+  },
+  {
+    "question": "If someone gives you too much change at a store, do you:",
+    "options": [
+      "Keep it",
+      "Return it",
+      "Ignore it",
+      "Ask the cashier if it’s correct"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Return it"
+  },
+  {
+    "question": "Is it ever okay to break the law?",
+    "options": [
+      "Yes, in emergencies",
+      "No",
+      "Only if it benefits others",
+      "Only if the law is unfair"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "No"
+  },
+  {
+    "question": "Your friend copies your homework and gets caught. Do you:",
+    "options": [
+      "Deny involvement",
+      "Support them",
+      "Tell the truth",
+      "Help them hide it"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Tell the truth"
+  },
+  {
+    "question": "You disagree with someone online. How do you respond?",
+    "options": [
+      "Argue aggressively",
+      "Ignore them",
+      "Have a respectful discussion",
+      "Report them"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Have a respectful discussion"
+  },
+  {
+    "question": "If you can save money by buying pirated products, do you?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if it's not available otherwise",
+      "Only if it's a low-cost item"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "No"
+  },
+  {
+    "question": "A friend tells a racist joke. Your reaction is to:",
+    "options": [
+      "Laugh along",
+      "Ignore it",
+      "Confront them about it",
+      "Change the topic"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Confront them about it"
+  },
+  {
+    "question": "You witness a minor traffic accident where no one is hurt. Do you:",
+    "options": [
+      "Ignore it",
+      "Call the police",
+      "Help the drivers exchange information",
+      "Take pictures for evidence"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "Help the drivers exchange information"
+  },
+  {
+    "question": "Is it ethical to use someone else's work in your project without crediting them?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if it's not copyrighted",
+      "Only if you ask for permission"
+    ],
+    "topic": "Ethics",
+    "correct_answer": "No"
+  }
+]
