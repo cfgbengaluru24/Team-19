@@ -1,68 +1,123 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-  }
-  
-  .registration-form {
-    max-width: 500px;
-    margin: 100px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .form-group input,
-  .form-group select {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  button {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-r, .flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex-c {
+    flex-direction: column;
+}
+
+.flex-r {
+    flex-direction: row;
+}
+
+.registration-container {
     width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url('../../Assets/LOGIN_Page_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 216, 230, 0.9);
+    z-index: 1;
+}
+
+.registration-form {
+    background-color: rgba(255, 255, 255);
+    width: 100%;
+    max-width: 1000px; /* Increased the width */
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.registration-form h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.registration-form p {
+    font-size: 24px;
+    color: #000000B2;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #F6F6F6;
     padding: 15px;
-    background-color: #007bff;
-    color: white;
+    border: 2px solid #D8D8D8;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 22px;
+}
+
+button {
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1E94E9 100%);
+    color: #ffffff;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 24px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .error {
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.error {
     color: red;
     margin-bottom: 15px;
-  }
-  
-  .registration-form header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .registration-form header h1 {
-    margin: 0;
-    color: #007bff;
-  }
-  
+}
+
+.message {
+    margin-top: 30px;
+    color: green;
+    font-size: 20px;
+}
