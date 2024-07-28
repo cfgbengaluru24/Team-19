@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './NavBar';
 import Profile from './Profile';
 import Assessments from './Assessments';
 import Feedback from './Feedback';
+import TraineeNavBar from './TraineeNavBar';
 import './TraineePage.css';
+import HomePage from '../HomePage/HomePage';
 
 const TraineePage = () => {
     const [section, setSection] = useState('profile');
@@ -14,7 +15,7 @@ const TraineePage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://your-backend-api.com/trainee');
+                const response = await fetch('http://localhost:5000/user/getdata', {user: {email: ''}});
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -32,23 +33,23 @@ const TraineePage = () => {
 
     const renderSection = () => {
         switch (section) {
+            case 'home' : 
+                return <HomePage/>;
             case 'profile':
-                return <Profile data={traineeData?.profile} />;
+                return <Profile />;
             case 'assessments':
-                return <Assessments data={traineeData?.assessments} />;
-            case 'feedback':
-                return <Feedback />;
+                return <Assessments/>;
             default:
-                return <Profile data={traineeData?.profile} />;
+                return <HomePage/>;
         }
     };
 
     if (loading) return <p>Loading...</p>;
-    if (error) return <p>Error: {error.message}</p>;
+    // if (error) return <p>Error: {error.message}</p>;
 
     return (
         <div className="trainee-page">
-            <Navbar setSection={setSection} />
+            <TraineeNavBar setActiveTab={setSection} />
             <div className="content">
                 {renderSection()}
             </div>

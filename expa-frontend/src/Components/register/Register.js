@@ -4,8 +4,7 @@ import './Register.css';
 function RegistrationForm() {
     const initialFormState = {
         username: '',
-        firstname: '',
-        lastname: '',
+        name: '',
         dob: '',
         gender: '',
         email: '',
@@ -26,21 +25,27 @@ function RegistrationForm() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (formData.password !== formData.confirmPassword) {
-            setError('Passwords do not match');
-            return;
-        }
-
-        // Convert formData to JSON format
-        const jsonFormData = JSON.stringify(formData, null, 2);
-        console.log('Form submitted:', jsonFormData);
-
-        // Clear form after submission
-        setFormData(initialFormState);
-        setError('');
-    };
+        try {
+          const response = await fetch('http://localhost:5000/user/signup', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+          if (response.ok) {
+            const newTrainer = await response.json();
+            console.log('New trainer added:', newTrainer);
+            // Optionally reset the form or update the state with new trainer
+          } else {
+            console.error('Failed to add trainer');
+          }
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      };
 
     return (
         <div className="registration-container">
@@ -60,23 +65,12 @@ function RegistrationForm() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="firstname">First Name</label>
+                    <label htmlFor="name">Name</label>
                     <input
                         type="text"
-                        id="firstname"
-                        name="firstname"
-                        value={formData.firstname}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="lastname">Last Name</label>
-                    <input
-                        type="text"
-                        id="lastname"
-                        name="lastname"
-                        value={formData.lastname}
+                        id="name"
+                        name="name"
+                        value={formData.name}
                         onChange={handleChange}
                         required
                     />
